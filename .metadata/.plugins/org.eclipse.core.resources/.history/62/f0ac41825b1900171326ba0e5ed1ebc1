@@ -1,0 +1,20 @@
+package main.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import main.model.SampleBean;
+
+public class TestClass {
+	public static void main(String args[]){
+		@SuppressWarnings("resource")
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		SampleBean sampleBean = (SampleBean)context.getBean("sampleBean");
+		sampleBean.setBeanName("SantoshKushwaha");
+		System.out.println(sampleBean.getBeanName());
+		
+		SampleBean sampleBean1 = (SampleBean)context.getBean("sampleBean1");
+		
+	}
+}
