@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+D:\SpringCertificationCourse\.metadata\.plugins\org.eclipse.jdt.core
+2776031203.index
+3151724663.index
+2285092016.index
+254051899.index

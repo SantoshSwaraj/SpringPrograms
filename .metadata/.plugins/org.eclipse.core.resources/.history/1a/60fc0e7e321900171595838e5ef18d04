@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	<bean id="student" name="main.model.Student">
+		<property name="name" value="Santosh"></property>
+		<property name="id" value="S1023"></property>
+		<property name="hostel">
+			<bean id="hostel" class="main.model.Hostel">
+				<property name="hostelName" value="Kaniska Boy's Hostel"></property>
+				<property name="city" value="Lucknow"></property>
+			</bean>
+		</property>
+	</bean>
+
+</beans>

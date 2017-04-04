@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="car" class="main.model.Car">
+		<constructor-arg>
+			<list>
+				<value>name</value>
+				<value>perdayCost</value>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="user" class="main.model.User">
+		<constructor-arg>
+			<value></value>
+		</constructor-arg>
+	</bean>
+</beans>

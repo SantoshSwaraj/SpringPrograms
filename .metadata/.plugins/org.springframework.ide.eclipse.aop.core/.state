@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="IOC_InnerBeanBased"/>
+<aop-project name="IOC_idrefBased"/>
+<aop-project name="IOC_SetterBased"/>
+<aop-project name="IOC_ConstrutorBased"/>
+</aop-reference-model>
