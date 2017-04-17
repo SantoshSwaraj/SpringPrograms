@@ -14,12 +14,14 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
-		<item value="560" key="x"/>
+		<item value="893" key="x"/>
 		<item value="0" key="y"/>
 		<item value="667" key="height"/>
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Dependency_Injection_XML_Based_byName"/>
+			<item value="Dependency Injection XML Based byName"/>
 			<item value="BeanScope"/>
 			<item value="BeanLifeCycle_UsingInterfacesAtBeanClass"/>
 			<item value="BeanLifeCycle_UsingXmlConfig"/>
@@ -32,6 +34,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Dependency_Injection_XML_Based_byName"/>
+			<item value="Dependency Injection XML Based byName"/>
 			<item value="BeanScope"/>
 			<item value="BeanLifeCycle_UsingInterfacesAtBeanClass"/>
 			<item value="BeanLifeCycle_UsingXmlConfig"/>

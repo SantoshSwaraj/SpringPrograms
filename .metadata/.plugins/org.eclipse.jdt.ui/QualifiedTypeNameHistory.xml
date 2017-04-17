@@ -7,7 +7,7 @@
 <fullyQualifiedTypeName name="main.model.Candidate"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="main.model.SampleBean"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="main.model.SampleBean"/>
 </qualifiedTypeNameHistroy>

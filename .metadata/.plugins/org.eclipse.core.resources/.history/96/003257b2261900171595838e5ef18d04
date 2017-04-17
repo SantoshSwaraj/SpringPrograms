@@ -1,8 +1,0 @@
-package main.model;
-
-public class Car {
-	private String model_no;
-	private String make;
-	
-
-}

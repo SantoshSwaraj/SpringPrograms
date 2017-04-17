@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="BeanScope"/>
+<aop-project name="IOC_CollectionBased"/>
 <aop-project name="IOC_InnerBeanBased"/>
 <aop-project name="IOC_idrefBased"/>
-<aop-project name="IOC_CollectionBased"/>
 <aop-project name="IOC_SetterBased"/>
 <aop-project name="BeanLifeCycle_UsingXmlConfig"/>
 <aop-project name="BeanLifeCycle_UsingInterfacesAtBeanClass"/>

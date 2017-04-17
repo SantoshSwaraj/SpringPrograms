@@ -1,0 +1,10 @@
+package main.test;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+	}
+
+}
