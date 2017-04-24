@@ -1,0 +1,23 @@
+package co.santosh.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import co.santosh.dao.CourseDAO;
+import co.santosh.entity.Course;
+
+public class TestClass {
+	public static void main(String args[]){
+		@SuppressWarnings("resource")
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		CourseDAO courseDAO = (CourseDAO)context.getBean("courseDAO");
+		Course course1 = new Course();
+		course1.setCourseId("framework");
+		course1.setCourseTitle("Spring-Framework-4.3.0");
+		course1.setPrice(15000);
+		
+		courseDAO.insertCourse(course1);
+		
+	}
+
+}

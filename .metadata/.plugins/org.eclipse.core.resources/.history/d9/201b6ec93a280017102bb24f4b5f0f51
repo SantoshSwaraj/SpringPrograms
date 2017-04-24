@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23-Apr-2017 21:06:53 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="co.santosh.entity.MobilePhone" table="MOBILEPHONE">
+        <id name="product_id" type="int">
+            <column name="PRODUCT_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="manufacturer" type="java.lang.String">
+            <column name="MANUFACTURER" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" />
+        </property>
+        <property name="color" type="java.lang.String">
+            <column name="COLOR" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+package main.model;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+
+@Aspect
+public class ForLogging {
+	
+	@Before("execution (* main.*.*(..))")
+	public void logBefore(JoinPoint joinPoint){
+		System.out.println("In the logBefore method of ForLogging Aspect");
+		System.out.println("Intercepted the call to "+joinPoint.getSignature().getName());
+	}
+
+}

@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="Spring_Hibernate_Integration">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="42" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#Spring_Hibernate_Integration#src/applicationContext.xml#42" aspect-start-line-number="42" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Spring_Hibernate_Integration|3:src/applicationContext.xml|7:beans:8|8:dao:40" bean-file="/Spring_Hibernate_Integration/src/applicationContext.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" source="=Spring_Hibernate_Integration/C:\/Users\/Santosh Kushwaha\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.0.RELEASE\/spring-tx-4.3.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=Spring_Hibernate_Integration/src&lt;co.santosh.dao{MobilePhoneDAOImpl.java[MobilePhoneDAOImpl~getMobilePhone~I" target-start-line="33"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Spring_Hibernate_Integration|3:src/applicationContext.xml|7:beans:8|8:dao:40" bean-file="/Spring_Hibernate_Integration/src/applicationContext.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" source="=Spring_Hibernate_Integration/C:\/Users\/Santosh Kushwaha\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.0.RELEASE\/spring-tx-4.3.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=Spring_Hibernate_Integration/src&lt;co.santosh.dao{MobilePhoneDAOImpl.java[MobilePhoneDAOImpl~getAllMobilePhone" target-start-line="38"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Spring_Hibernate_Integration|3:src/applicationContext.xml|7:beans:8|8:dao:40" bean-file="/Spring_Hibernate_Integration/src/applicationContext.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" source="=Spring_Hibernate_Integration/C:\/Users\/Santosh Kushwaha\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.0.RELEASE\/spring-tx-4.3.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=Spring_Hibernate_Integration/src&lt;co.santosh.dao{MobilePhoneDAOImpl.java[MobilePhoneDAOImpl~saveMobile~QMobilePhone;" target-start-line="16"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Spring_Hibernate_Integration|3:src/applicationContext.xml|7:beans:8|8:dao:40" bean-file="/Spring_Hibernate_Integration/src/applicationContext.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" source="=Spring_Hibernate_Integration/C:\/Users\/Santosh Kushwaha\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.0.RELEASE\/spring-tx-4.3.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=Spring_Hibernate_Integration/src&lt;co.santosh.dao{MobilePhoneDAOImpl.java[MobilePhoneDAOImpl~updateMobile~QMobilePhone;" target-start-line="22"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Spring_Hibernate_Integration|3:src/applicationContext.xml|7:beans:8|8:dao:40" bean-file="/Spring_Hibernate_Integration/src/applicationContext.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_Hibernate_Integration/src/applicationContext.xml" source="=Spring_Hibernate_Integration/C:\/Users\/Santosh Kushwaha\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.0.RELEASE\/spring-tx-4.3.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=Spring_Hibernate_Integration/src&lt;co.santosh.dao{MobilePhoneDAOImpl.java[MobilePhoneDAOImpl~deleteMobile~I" target-start-line="28"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="BeanScope"/>
+<aop-project name="Spring_JdbcTemplate_BatchProcess"/>
 <aop-project name="IOC_CollectionBased"/>
-<aop-project name="IOC_InnerBeanBased"/>
 <aop-project name="IOC_idrefBased"/>
-<aop-project name="IOC_SetterBased"/>
-<aop-project name="BeanLifeCycle_UsingXmlConfig"/>
 <aop-project name="BeanLifeCycle_UsingInterfacesAtBeanClass"/>
+<aop-project name="DI_AnnotationBased_Autowired"/>
+<aop-project name="Spring_AOP_JavaBasedBeforeAdvice"/>
+<aop-project name="Spring_AOP_AspectJBased_Annotation">
+<aspect-definition advice-class-name="main.model.ForLogging" advice-method-name="logBefore(org.aspectj.lang.JoinPoint)" advice-type="BEFORE" aspect-end-line-number="11" aspect-name="logBeforeAspect" aspect-start-line-number="11" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/Spring_AOP_AspectJBased_Annotation/src/applicationContext.xml" pointcut-expression="execution (* main.model.*.*(..))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:Spring_AOP_AspectJBased_Annotation|3:src/applicationContext.xml|7:beans:6|8:sampleBean:10" bean-file="/Spring_AOP_AspectJBased_Annotation/src/applicationContext.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Spring_AOP_AspectJBased_Annotation/src/applicationContext.xml" source="=Spring_AOP_AspectJBased_Annotation/src&lt;main.model{ForLogging.java[ForLogging~logBefore~QJoinPoint;" source-start-line="12" target="=Spring_AOP_AspectJBased_Annotation/src&lt;main.model{SampleBean.java[SampleBean~actualLogicMethod" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="Spring_JdbcTemplate"/>
+<aop-project name="BeanLifeCycle_UsingXmlConfig"/>
+<aop-project name="Spring_DAO_Demo"/>
+<aop-project name="Spring_ExpressionLanguage_Demo2"/>
+<aop-project name="spring_4_1"/>
+<aop-project name="DI_XMLBased_byType"/>
+<aop-project name="DI_XMLBased_byName"/>
+<aop-project name="IOC_InnerBeanBased"/>
+<aop-project name="IOC_SetterBased"/>
+<aop-project name="Spring_AOP_JavaBasedBefore_After_Advice"/>
+<aop-project name="Spring_ExpressionLanguage_Demo1"/>
+<aop-project name="Spring_JSR_Annotation"/>
+<aop-project name="Spring_AOP_JavaBasedAroundAdvice"/>
+<aop-project name="DI_XMLBased_constructor"/>
+<aop-project name="Spring_AOP_AfterException"/>
 <aop-project name="IOC_ConstrutorBased"/>
 </aop-reference-model>

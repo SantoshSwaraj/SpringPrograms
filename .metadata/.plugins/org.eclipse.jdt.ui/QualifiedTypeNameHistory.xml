@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="main.model.User"/>
-<fullyQualifiedTypeName name="main.model.Student"/>
 <fullyQualifiedTypeName name="main.model.ClientClass"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="main.model.Candidate"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
 <fullyQualifiedTypeName name="main.model.SampleBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+<fullyQualifiedTypeName name="main.model.Student"/>
+<fullyQualifiedTypeName name="org.springframework.aop.BeforeAdvice"/>
+<fullyQualifiedTypeName name="org.springframework.aop.MethodBeforeAdvice"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="co.santosh.dao.CourseDAO"/>
+<fullyQualifiedTypeName name="co.santosh.entity.Course"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.BatchPreparedStatementSetter"/>
+<fullyQualifiedTypeName name="co.santosh.dao.StockDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="co.santosh.entity.Stock"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="co.santosh.dao.MobilePhoneDAO"/>
+<fullyQualifiedTypeName name="co.santosh.entity.MobilePhone"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

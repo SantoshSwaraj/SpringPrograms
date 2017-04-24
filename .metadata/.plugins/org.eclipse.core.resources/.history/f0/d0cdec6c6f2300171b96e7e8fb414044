@@ -1,0 +1,6 @@
+package main.model;
+
+public class Data {
+	private int a;
+	private int b;
+}

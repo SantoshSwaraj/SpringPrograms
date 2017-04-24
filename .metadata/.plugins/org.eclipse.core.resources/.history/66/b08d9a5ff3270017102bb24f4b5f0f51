@@ -1,0 +1,31 @@
+package co.santosh.dao;
+
+import co.santosh.entity.Course;
+
+public class CourseDAOImpl implements CourseDAO {
+
+	@Override
+	public void insertCourse(Course course) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteCourse(String courseName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Course getCourse(String courseName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateCourse(String courseName, Course updatedCourse) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

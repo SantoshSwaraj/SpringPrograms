@@ -20,6 +20,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Spring_Hibernate_Integration"/>
+			<item value="Spring_JdbcTemplate_BatchProcess"/>
+			<item value="Spring_JdbcTemplate"/>
+			<item value="Spring-JDBCTemplate"/>
+			<item value="Spring_AOP_XMLBased"/>
+			<item value="Spring_ExpressionLanguage_Demo2"/>
+			<item value="Spring_ExpressionLanguage_Demo1"/>
+			<item value="Spring_JSR_Annotation"/>
 			<item value="Dependency_Injection_XML_Based_byName"/>
 			<item value="Dependency Injection XML Based byName"/>
 			<item value="BeanScope"/>
@@ -27,13 +35,18 @@
 			<item value="BeanLifeCycle_UsingXmlConfig"/>
 			<item value="IOC_CollectionBased"/>
 			<item value="IOC_idrefBased"/>
-			<item value="IOC_InnerBeanBased"/>
-			<item value="IOC_ConstrutorBased"/>
-			<item value="IOC_SetterBased"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Spring_Hibernate_Integration"/>
+			<item value="Spring_JdbcTemplate_BatchProcess"/>
+			<item value="Spring_JdbcTemplate"/>
+			<item value="Spring-JDBCTemplate"/>
+			<item value="Spring_AOP_XMLBased"/>
+			<item value="Spring_ExpressionLanguage_Demo2"/>
+			<item value="Spring_ExpressionLanguage_Demo1"/>
+			<item value="Spring_JSR_Annotation"/>
 			<item value="Dependency_Injection_XML_Based_byName"/>
 			<item value="Dependency Injection XML Based byName"/>
 			<item value="BeanScope"/>
@@ -41,9 +54,6 @@
 			<item value="BeanLifeCycle_UsingXmlConfig"/>
 			<item value="IOC_CollectionBased"/>
 			<item value="IOC_idrefBased"/>
-			<item value="IOC_InnerBeanBased"/>
-			<item value="IOC_ConstrutorBased"/>
-			<item value="IOC_SetterBased"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>

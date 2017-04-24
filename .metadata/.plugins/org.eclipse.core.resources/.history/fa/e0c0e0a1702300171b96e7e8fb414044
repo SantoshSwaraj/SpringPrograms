@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<bean id="data" class="main.model.Data">
+		<property name="a" value="2"></property>
+		<property name="b" value="3"></property>
+	</bean>
+	<bean id="usingSpEl" class="main.model.UsingSpEL">
+		<property name="equalCheck" value="#{data.a eq data.b}"></property>
+		<property name="concat"></property>
+		<property name="exponent"></property>
+	</bean>
+</beans>

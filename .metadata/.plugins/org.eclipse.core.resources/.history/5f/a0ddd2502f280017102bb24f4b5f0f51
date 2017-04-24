@@ -1,0 +1,15 @@
+package co.santosh.dao;
+
+import java.util.List;
+
+import co.santosh.entity.Stock;
+
+public class StockDAOImpl implements StockDAO {
+
+	@Override
+	public void batchInsert(List<Stock> stocks) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package co.santosh.entity;
+
+public class MobliePhone {
+
+}

@@ -1,0 +1,37 @@
+package co.santosh.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+
+		MobilePhoneDAO dao = (MobilePhoneDao)context.getBean("dao");
+		
+		MobilePhone mobilephone=new MobilePhone();
+		mobilephone.setProduct_id(111);
+		mobilephone.setManufacturer("Samsung");
+		mobilephone.setPrice(4250);
+		mobilephone.setColor("White");
+	 
+		
+		dao.saveMobile(mobilephone);
+		System.out.println("Record inserted...");
+		
+		List <MobilePhone> mobilePhoneLst = dao.getAllMobilePhone();
+		
+		System.out.println("ProductId\tManufacturer\tPrice\tColor");
+		for (MobilePhone mp : mobilePhoneLst)
+		{
+			System.out.println(mobilePhoneLst.get(0)+"\t"+mobilePhoneLst.get(1)+"\t"+mobilePhoneLst.get(2)+"\t"+mobilePhoneLst.get(3));
+		}
+
+	}
+
+	}
+
+}

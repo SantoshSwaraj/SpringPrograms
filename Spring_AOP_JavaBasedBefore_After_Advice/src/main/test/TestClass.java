@@ -1,0 +1,21 @@
+package main.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import main.model.SampleBean;
+
+
+public class TestClass {
+
+	@SuppressWarnings("resource")
+	public static void main(String args[])
+	{
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+		SampleBean obj=(SampleBean)context.getBean("proxy");		
+		obj.actualLogicMethod();
+		
+	}
+	
+}

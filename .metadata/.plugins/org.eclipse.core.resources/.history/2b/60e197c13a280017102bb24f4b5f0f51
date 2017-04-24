@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23-Apr-2017 21:06:53 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <subclass name="co.santosh.dao.MobilePhoneDAOImpl" extends="co.santosh.dao.MobilePhoneDAO" discriminator-value="MobilePhoneDAOImpl" lazy="false">
+        <property name="sessionfactory" type="org.hibernate.SessionFactory" access="field">
+            <column name="SESSIONFACTORY" />
+        </property>
+    </subclass>
+</hibernate-mapping>

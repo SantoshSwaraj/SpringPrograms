@@ -1,0 +1,46 @@
+package co.santosh.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BatchPreparedStatementSetter;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import co.santosh.entity.Stock;
+
+public class StockDAOImpl implements StockDAO {
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	@Override
+	public void batchInsert(List<Stock> stocks) {
+		String sql = "INSERT INTO stock " +
+	    		"(name, category, number) VALUES (?, ?, ?)";
+		jdbcTemplate.batchUpdate(sql, new BatchPreparedStatementSetter(){
+
+			@Override
+			public void setValues(PreparedStatement ps, int i) throws SQLException {
+				Stock stock = stocks.get(i);
+				ps.setString(1, stock.getName());
+				ps.setString(2, stock.getCategory());
+				ps.setInt(3, stock.getNumber());
+				
+			}
+
+			@Override
+			public int getBatchSize() {
+				return stocks.size();
+			}
+			
+			
+		});
+
+	}
+
+}

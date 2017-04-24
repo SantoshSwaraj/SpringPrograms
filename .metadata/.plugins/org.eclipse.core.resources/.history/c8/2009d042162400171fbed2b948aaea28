@@ -1,0 +1,5 @@
+package main.advice;
+
+public class MethodBeforeAdvisor {
+
+}

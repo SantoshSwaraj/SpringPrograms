@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=Spring_JdbcTemplate/src&lt;co.santosh.dao{CourseDAO.java[CourseDAO" modifiers="513" timestamp="1492930596887"/>
+<typeInfo handle="=Spring_JdbcTemplate/C:\/Program Files\/Java\/jdk1.8.0_65\/jre\/lib\/rt.jar&lt;org.w3c.dom.css(Counter.class[Counter" modifiers="1537" timestamp="1485257209818"/>
+<typeInfo handle="=Spring_JdbcTemplate_BatchProcess/src&lt;co.santosh.dao{StockDAO.java[StockDAO" modifiers="513" timestamp="1492955973787"/>
+</typeInfoHistroy>
